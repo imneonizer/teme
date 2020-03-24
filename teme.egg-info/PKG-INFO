@@ -1,12 +1,12 @@
 Metadata-Version: 1.1
 Name: teme
-Version: 0.3
+Version: 0.4
 Summary: This module provides easy to use functionalities for sending message from web to telegram.
 Home-page: https://github.com/imneonizer/teme
 Author: Nitin Rai
 Author-email: mneonizer@gmail.com
 License: MIT
-Download-URL: https://github.com/imneonizer/teme/archive/v0.3.tar.gz
+Download-URL: https://github.com/imneonizer/teme/archive/v0.4.tar.gz
 Description: UNKNOWN
 Keywords: web push,message,notify
 Platform: UNKNOWN

@@ -1,4 +1,5 @@
 import argparse
+import json
 from teme.teme import get_token
 from teme.teme import send_message
 
@@ -18,6 +19,6 @@ if args["token"] == 'None':
 
 res = send_message(args["message"], args["token"])
 
-if str(res) != "<Response [200]>":
-    print("[Error] message not sent")
+if json.loads(res.text) != {"ok": True} :
+    print("[Error] message not sent, {}".format(res.text))
 
