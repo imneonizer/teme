@@ -17,7 +17,6 @@ if args["token"] == 'None':
     args["token"] = get_token(args["address"])
 
 res = send_message(args["message"], args["token"])
-print(res)
 
 if str(res) != "<Response [200]>":
     print("[Error] message not sent")
